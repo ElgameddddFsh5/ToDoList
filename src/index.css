@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  background: linear-gradient(to left bottom, #39558810 0%, #ffffff10 100%);
+  box-shadow: 0px 5px 10px #888888;
+  height: 500px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.loginpage {
+  background: url("./Image/17973908.jpg") no-repeat center center/cover;
+}
+.input-with-icon {
+  padding-left: 40px;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+.login a {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+.input-with-icon {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2rem !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+}
+.input-with-icon:focus {
+  border: 2px solid rgb(39, 166, 216);
+  outline: none;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(102, 102, 102);
+  border-radius: 25px;
+}
+
+.account {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("./Image/17973908.jpg") no-repeat center center/cover;
+}
+.account h1 {
+  font-size: 22px;
+}
+.account a {
+  text-decoration: none;
+  color: #272727;
+  margin: 0 auto;
+}
+.account button {
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.account button:hover {
+  background-color: rgb(95, 95, 95);
+}
+.accounttext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

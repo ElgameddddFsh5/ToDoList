@@ -1,0 +1,86 @@
+.MainTodoContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../Image/17973908.jpg") no-repeat center center/cover;
+}
+.TodoContent {
+  background-color: #fff;
+  box-shadow: 0px 5px 10px #888888;
+  height: 600px;
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.TodoText {
+  background-color: rgba(196, 215, 228, 0.555);
+  overflow-y: scroll;
+  height: 380px;
+  padding: 10px;
+}
+.TodoText li {
+  color: #fff;
+  list-style: none;
+  margin: 10px 10px;
+  background-color: #252525;
+  padding: 10px;
+  border-radius: 5px;
+}
+.TodoText .TodoEdits svg {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.TodoText .TodoEdits svg:nth-child(1):hover {
+  color: #c2331a;
+  height: 30px;
+  width: 30px;
+}
+.GotoLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GotoLogin a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #252525;
+}
+.TodoItemText {
+}
+.todoItemContent {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.time {
+  font-size: 12px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.completed {
+}
+.completed svg {
+  cursor: pointer;
+}
+.completed svg:hover {
+  color: rgb(116, 230, 116);
+}
+.completed svg.Done {
+  color: rgb(116, 230, 116);
+}
+.todoItem {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+.todoItem .todoItemContent {
+  width: 300px;
+}
+.TodoText {
+  overflow-x: hidden;
+}
